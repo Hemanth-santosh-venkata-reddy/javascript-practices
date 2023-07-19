@@ -1,0 +1,48 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:auto;
+    background-color: #ffffff;
+    padding:10px;
+  }
+  
+  #logo {
+    width: 120px;
+    height: 40px;
+    fill: #0d0404; /* Initial white color for logo */
+    transition: fill 0.3s ease;
+  }
+  .sidebar{
+    width:235px;
+    height:100vh;
+    background-color: white;
+  }
+  
+  .section {
+    height: 100vh;
+    padding: 60px 0;
+  }
+  
+  .section-1 {
+    background-color: #47a3f4;
+    button{
+      border:none;
+      padding:5px;
+      border-radius:4px;
+    }
+  }
+  
+  .section-2 {
+    background-color: #da70fa;
+  }
+  
+  .section-3 {
+    background-color: #63f55e;
+  }
+  
+  .section-4 {
+    background-color: #fccb62;
+  }
+  
